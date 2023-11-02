@@ -1,0 +1,34 @@
+#include <Servo.h>
+Servo r;
+Servo l;
+
+void setup(){
+  r.attach(12);
+  l.attach(13);
+}
+void loop(){
+  r.write(1700);
+  l.write(1700);
+  delay(500);
+  r.write(1300);
+  l.write(1300);
+  delay(500);
+  r.write(1700);
+  l.write(1700);
+  delay(500);
+  r.write(1300);
+  l.write(1300);
+  delay(500);
+  r.write(1300);
+  l.write(1700);
+  delay(2000);
+  r.write(1300);
+  l.write(1300);
+  delay(500);
+  r.write(1700);
+  l.write(1700);
+  delay(2000);
+  r.write(1700);
+  l.write(1300);
+  delay(1500);
+}
