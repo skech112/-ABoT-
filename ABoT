@@ -1,3 +1,6 @@
+유튜브 영상:https://www.youtube.com/watch?v=9x7Yu8bQhlc
+
+아두이노 코드
 #include <Servo.h>
 Servo r;
 Servo l;
@@ -32,3 +35,4 @@ void loop(){
   l.write(1300);
   delay(1500);
 }
+
